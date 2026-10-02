@@ -1,0 +1,32 @@
+name: taller_flutter_graficos
+description: Taller de Gráficos en Flutter - 4 librerías, 40 básicas + 25 avanzadas c/u.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Librería 1
+  fl_chart: ^0.68.0
+
+  # Librería 2
+  syncfusion_flutter_charts: ^26.2.14
+
+  # Librería 3
+  graphic: ^2.5.0
+
+  # Librería 4 (fork mantenido y null-safe de Google Charts)
+  community_charts_flutter: ^1.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
